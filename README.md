@@ -1,1 +1,6 @@
-# auto_delete_bluesky_posts
+### auto_delete_bluesky_posts
+  
+設定した期間よりもBlueskyの過去の投稿を自動で削除してくれるスクリプト  
+SNSでブランディングすることも少なくなり、安否確認くらいにしか使っていないので  
+Claude Codeに作ってもらった  
+今と考え方が異なる過去の投稿を長く残すことは現代ではリスクだなーと思っている
