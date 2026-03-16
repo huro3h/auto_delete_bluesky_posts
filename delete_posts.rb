@@ -5,7 +5,7 @@ require 'uri'
 
 HANDLE      = ENV.fetch('BSKY_HANDLE')
 PASSWORD    = ENV.fetch('BSKY_APP_PASSWORD')
-DAYS_TO_KEEP = ENV.fetch('DAYS_TO_KEEP', '14').to_i
+DAYS_TO_KEEP = ENV.fetch('DAYS_TO_KEEP', '60').to_i
 BASE_URL    = 'https://bsky.social/xrpc'
 
 def post_json(path, body)
