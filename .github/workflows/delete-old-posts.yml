@@ -1,8 +1,6 @@
 name: Delete Old Bluesky Posts
 
 on:
-  schedule:
-    - cron: '0 1 * * *'
   workflow_dispatch:
 
 env:
