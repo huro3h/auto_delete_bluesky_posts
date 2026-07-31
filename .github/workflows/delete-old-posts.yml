@@ -20,4 +20,4 @@ jobs:
         env:
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
-          DAYS_TO_KEEP: 30
+          DAYS_TO_KEEP: ${{ vars.DAYS_TO_KEEP }}
